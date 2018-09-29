@@ -4,7 +4,9 @@ Memory game project completed as part of Udacity's Front End Web Developer nanod
 
 ## Getting Started
 
-After download, install to any local directory and open index.html to play the game.
+After download, install to any local directory and open index.html to play the game.  
+
+To start playing the game pick a card, then try to select another matching card.  Continue doing this until you have matched all the cards.  You can restart the game by clicking the restart button on the upper right hand corner of the page.
 
 ### Prerequisites
 
