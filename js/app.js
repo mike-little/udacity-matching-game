@@ -62,7 +62,7 @@ function translateMovesToStars() {
     let starCount = 3;
     if (moveCount > 17 && moveCount < 25 ) {
         starCount = 2;
-    } else if (moveCount > 25) {
+    } else if (moveCount > 24) {
         starCount = 1;
     }
     return starCount;
