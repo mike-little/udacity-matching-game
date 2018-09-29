@@ -1,0 +1,69 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 549px) {
+  .header__logo {
+    height: 48px;
+    margin-right: 0.5em;
+  }
+  .header__title {
+    margin-left: 0;
+    font-size: 2em;
+    vertical-align: bottom;
+  }
+  
+  .focal-image-statement img {
+    max-height: 360px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+
+  .focal-image-statement img {
+    max-height: 420px;
+  }
+  
+  .about-me-item img {
+    max-height: 150px;
+  }
+
+  #about-me-skills {
+    order: 0;
+    width: 33.3%;
+  }
+  #about-me-beliefs {
+    order: 1;
+    width: 33.3%;
+  }
+  #about-me-attitude {
+    order: 2;
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+
+  .focal-image-statement img {
+    max-height: 520px;
+  }
+
+  .about-me-item img {
+    max-height: 160px;
+  }
+
+  #about-me-skills {
+    order: 0;
+    width: 33.3%;
+  }
+  #about-me-beliefs {
+    order: 1;
+    width: 33.3%;
+  }
+  #about-me-attitude {
+    order: 2;
+    width: 33.3%;
+  }
+}
