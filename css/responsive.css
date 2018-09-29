@@ -1,69 +1,33 @@
-.content {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 
 @media screen and (max-width: 549px) {
-  .header__logo {
-    height: 48px;
-    margin-right: 0.5em;
+  .deck {
+    width: 310px;
+    min-height: 300px;
   }
-  .header__title {
-    margin-left: 0;
-    font-size: 2em;
-    vertical-align: bottom;
+  .deck .card {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 3px;
   }
-  
-  .focal-image-statement img {
-    max-height: 360px;
+
+  .score-panel {
+    width: 310px;
   }
 }
 
-@media screen and (min-width: 700px) {
-
-  .focal-image-statement img {
-    max-height: 420px;
+@media screen and (min-width: 550px) and (max-width: 800px) {
+   .deck {
+    width: 550px;
+    min-height: 500px;
   }
-  
-  .about-me-item img {
-    max-height: 150px;
-  }
-
-  #about-me-skills {
-    order: 0;
-    width: 33.3%;
-  }
-  #about-me-beliefs {
-    order: 1;
-    width: 33.3%;
-  }
-  #about-me-attitude {
-    order: 2;
-    width: 33.3%;
-  }
-}
-
-@media screen and (min-width: 900px) {
-
-  .focal-image-statement img {
-    max-height: 520px;
+  .deck .card {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 3px;
   }
 
-  .about-me-item img {
-    max-height: 160px;
-  }
-
-  #about-me-skills {
-    order: 0;
-    width: 33.3%;
-  }
-  #about-me-beliefs {
-    order: 1;
-    width: 33.3%;
-  }
-  #about-me-attitude {
-    order: 2;
-    width: 33.3%;
+  .score-panel {
+    width: 550px;
   }
 }
